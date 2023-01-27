@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&family=Roboto+Mono&family=Rubik+Bubbles&display=swap"
+        rel="stylesheet">
+    <title>Momentum clone</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container temp">
+            <span class="js-weather weather"></span>
+            <img id="img">
+        </div>
+        <div class="container"></div>
+        <div class="container">
+            <div class="js-clock clock">
+                <h1 class="js-clock-hours clock-hours">00</h1>
+                <h1>:</h1>
+                <h1 class="js-clock-min clock-min">00</h1>
+                <h1 class="js-clock-sec clock-sec">00</h1>
+            </div>
+
+        </div>
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container name">
+            <form class="js-form form appear">
+                <input type="text" placeholder="What`s your name?">
+            </form>
+            <h2 class="js-greetings greetings"></h2>
+            <form class="js-toDoForm">
+                <input type="text" placeholder="Add a task for today:">
+            </form>
+            <ul class="js-toDoList toDoList">
+                <input class="checkbox" type="checkbox" id="check">
+            </ul>
+        </div>
+        <div class="container"></div>
+    </div>
+    <script src="./clock.js"></script>
+    <script src="./greeting.js"></script>
+    <script src="./todo.js"></script>
+    <script src="./bg.js"></script>
+    <script src="./weather.js"></script>
+</body>
+
+</html>
